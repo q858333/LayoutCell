@@ -6,12 +6,12 @@
 //  Copyright © 2016年 dengbin. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DBNewsVC.h"
 #import "DBMessageModel.h"
 #import "UITableView+FDTemplateLayoutCell.h"
 #import "DBMessageCell.h"
 #import "DBMessageModel.h"
-@interface ViewController ()
+@interface DBNewsVC ()
 {
     NSMutableArray  *_datas;//数据源
     
@@ -20,12 +20,12 @@
 }
 @end
 
-@implementation ViewController
+@implementation DBNewsVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   // [self.tableView registerClass:[DBMessageCell class] forCellReuseIdentifier:@"cell"];
+  //  [self.tableView registerClass:[DBMessageCell class] forCellReuseIdentifier:@"cell"];
  //   [self.tableView registerNib:[UINib nibWithNibName:@"DBMessageCell_SB" bundle:nil] forCellReuseIdentifier:@"cell"];
 
     
