@@ -40,7 +40,7 @@
       //  [[UINavigationBar appearance] setba]
         [nav.navigationBar setBackgroundImage:[self imageWithColor:[UIColor colorWithRed:200.0/255.0 green:200.0/255.0 blue:200.0/255.0 alpha:1] size:CGSizeMake(CGRectGetWidth(self.view.frame), 64)] forBarMetrics:UIBarMetricsDefault];
 
-//        nav.navigationBar.translucent = NO;
+        nav.navigationBar.translucent = NO;
 //        NSDictionary *textAttributes = @{
 //                                         NSFontAttributeName: kNavTitleFont,
 //                                         NSForegroundColorAttributeName: kNavTitleColor,
