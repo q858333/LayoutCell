@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DBMainTabBarController : UITabBarController
-
+-(void)configViewControllers;
 @end

@@ -8,6 +8,8 @@
 
 #import "DBLoginVC.h"
 #import "DBMainTabBarController.h"
+
+
 @interface DBLoginVC ()
 
 @end
@@ -37,12 +39,11 @@
 - (IBAction)loginButtonClick:(id)sender {
 
 
-    NSArray *titleArr = @[@"最近",@"联系人",@"功能",@"设置"];
-    NSArray *classArr = @[@"",@"",@"",@""];
+    DBMainTabBarController *mainTabbarController = [[DBMainTabBarController alloc]init];
+    [mainTabbarController configViewControllers];
+    [self presentViewController:mainTabbarController animated:YES completion:^{
 
-
-    Class class = NSStringFromClass(<#Class  _Nonnull __unsafe_unretained aClass#>)
-
+    }];
 
 
 

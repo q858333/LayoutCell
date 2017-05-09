@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DBSettringVC : UITableViewController
+@interface DBSettingVC : UITableViewController
 
 @end

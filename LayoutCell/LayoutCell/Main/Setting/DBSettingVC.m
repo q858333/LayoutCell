@@ -6,17 +6,18 @@
 //  Copyright © 2017年 dengbin. All rights reserved.
 //
 
-#import "DBSettringVC.h"
+#import "DBSettingVC.h"
 
-@interface DBSettringVC ()
+@interface DBSettingVC ()
 
 @end
 
-@implementation DBSettringVC
+@implementation DBSettingVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"设置";
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
