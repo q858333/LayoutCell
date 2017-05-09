@@ -21,6 +21,12 @@
 		F74CFE361DF55C8F0099690C /* DBMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F74CFE351DF55C8F0099690C /* DBMessageCell.m */; };
 		F74CFE391DF55CA60099690C /* DBMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F74CFE381DF55CA60099690C /* DBMessageModel.m */; };
 		F74CFE7A1DF56B660099690C /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F74CFE791DF56B660099690C /* default.jpg */; };
+		F75C76F41EC16C6700CDA921 /* DBLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F75C76F31EC16C6700CDA921 /* DBLoginVC.m */; };
+		F75C76F91EC16D7300CDA921 /* DBMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75C76F81EC16D7300CDA921 /* DBMainTabBarController.m */; };
+		F75C77001EC16E8D00CDA921 /* DBFriendListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F75C76FF1EC16E8D00CDA921 /* DBFriendListVC.m */; };
+		F75C77031EC16EBF00CDA921 /* DBFunctionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F75C77021EC16EBF00CDA921 /* DBFunctionVC.m */; };
+		F75C77061EC16EDF00CDA921 /* DBRecentListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F75C77051EC16EDF00CDA921 /* DBRecentListVC.m */; };
+		F75C77091EC16EF000CDA921 /* DBSettringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F75C77081EC16EF000CDA921 /* DBSettringVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +74,18 @@
 		F74CFE371DF55CA60099690C /* DBMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMessageModel.h; sourceTree = "<group>"; };
 		F74CFE381DF55CA60099690C /* DBMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMessageModel.m; sourceTree = "<group>"; };
 		F74CFE791DF56B660099690C /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		F75C76F21EC16C6700CDA921 /* DBLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBLoginVC.h; sourceTree = "<group>"; };
+		F75C76F31EC16C6700CDA921 /* DBLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoginVC.m; sourceTree = "<group>"; };
+		F75C76F71EC16D7300CDA921 /* DBMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMainTabBarController.h; sourceTree = "<group>"; };
+		F75C76F81EC16D7300CDA921 /* DBMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMainTabBarController.m; sourceTree = "<group>"; };
+		F75C76FE1EC16E8D00CDA921 /* DBFriendListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFriendListVC.h; sourceTree = "<group>"; };
+		F75C76FF1EC16E8D00CDA921 /* DBFriendListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFriendListVC.m; sourceTree = "<group>"; };
+		F75C77011EC16EBF00CDA921 /* DBFunctionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFunctionVC.h; sourceTree = "<group>"; };
+		F75C77021EC16EBF00CDA921 /* DBFunctionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFunctionVC.m; sourceTree = "<group>"; };
+		F75C77041EC16EDF00CDA921 /* DBRecentListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRecentListVC.h; sourceTree = "<group>"; };
+		F75C77051EC16EDF00CDA921 /* DBRecentListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRecentListVC.m; sourceTree = "<group>"; };
+		F75C77071EC16EF000CDA921 /* DBSettringVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSettringVC.h; sourceTree = "<group>"; };
+		F75C77081EC16EF000CDA921 /* DBSettringVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSettringVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +156,9 @@
 		F74CFDFB1DF558210099690C /* LayoutCell */ = {
 			isa = PBXGroup;
 			children = (
+				F75C76F61EC16D5500CDA921 /* Main */,
+				F75C76F01EC16C5000CDA921 /* Login */,
+				F75C76F11EC16C5000CDA921 /* Register */,
 				F74CFE2F1DF55B840099690C /* data.json */,
 				F74CFE791DF56B660099690C /* default.jpg */,
 				F74CFDFF1DF558210099690C /* AppDelegate.h */,
@@ -183,6 +204,71 @@
 				F74CFE231DF558210099690C /* Info.plist */,
 			);
 			path = LayoutCellUITests;
+			sourceTree = "<group>";
+		};
+		F75C76F01EC16C5000CDA921 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F75C76F21EC16C6700CDA921 /* DBLoginVC.h */,
+				F75C76F31EC16C6700CDA921 /* DBLoginVC.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F75C76F11EC16C5000CDA921 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F75C76F61EC16D5500CDA921 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F75C76FA1EC16E6A00CDA921 /* Friend */,
+				F75C76FB1EC16E6A00CDA921 /* Function */,
+				F75C76FC1EC16E6A00CDA921 /* Recent */,
+				F75C76FD1EC16E6A00CDA921 /* Setting */,
+				F75C76F71EC16D7300CDA921 /* DBMainTabBarController.h */,
+				F75C76F81EC16D7300CDA921 /* DBMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F75C76FA1EC16E6A00CDA921 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				F75C76FE1EC16E8D00CDA921 /* DBFriendListVC.h */,
+				F75C76FF1EC16E8D00CDA921 /* DBFriendListVC.m */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		F75C76FB1EC16E6A00CDA921 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				F75C77011EC16EBF00CDA921 /* DBFunctionVC.h */,
+				F75C77021EC16EBF00CDA921 /* DBFunctionVC.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		F75C76FC1EC16E6A00CDA921 /* Recent */ = {
+			isa = PBXGroup;
+			children = (
+				F75C77041EC16EDF00CDA921 /* DBRecentListVC.h */,
+				F75C77051EC16EDF00CDA921 /* DBRecentListVC.m */,
+			);
+			path = Recent;
+			sourceTree = "<group>";
+		};
+		F75C76FD1EC16E6A00CDA921 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F75C77071EC16EF000CDA921 /* DBSettringVC.h */,
+				F75C77081EC16EF000CDA921 /* DBSettringVC.m */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,11 +460,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75C77091EC16EF000CDA921 /* DBSettringVC.m in Sources */,
+				F75C77031EC16EBF00CDA921 /* DBFunctionVC.m in Sources */,
 				F72F59841DF6A808006A1851 /* DBMessageCell_SB.m in Sources */,
 				F74CFE041DF558210099690C /* ViewController.m in Sources */,
+				F75C76F41EC16C6700CDA921 /* DBLoginVC.m in Sources */,
 				F74CFE011DF558210099690C /* AppDelegate.m in Sources */,
+				F75C77061EC16EDF00CDA921 /* DBRecentListVC.m in Sources */,
 				F74CFDFE1DF558210099690C /* main.m in Sources */,
+				F75C77001EC16E8D00CDA921 /* DBFriendListVC.m in Sources */,
 				F74CFE361DF55C8F0099690C /* DBMessageCell.m in Sources */,
+				F75C76F91EC16D7300CDA921 /* DBMainTabBarController.m in Sources */,
 				F74CFE391DF55CA60099690C /* DBMessageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
