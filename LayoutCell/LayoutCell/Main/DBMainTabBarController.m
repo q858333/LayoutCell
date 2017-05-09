@@ -23,7 +23,7 @@
 
     // Do any additional setup after loading the view.
 }
--(void)configViewControllers
+-(void)configureViewControllers
 {
     NSArray *titleArr = @[@"最近",@"联系人",@"功能",@"设置"];
     NSArray *imageArr = @[@"recent",@"friend",@"function",@"setting"];

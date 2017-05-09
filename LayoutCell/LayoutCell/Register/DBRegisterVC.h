@@ -1,5 +1,5 @@
 //
-//  DBMainTabBarController.h
+//  DBRegisterVC.h
 //  LayoutCell
 //
 //  Created by dengbin on 17/5/9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DBMainTabBarController : UITabBarController
--(void)configureViewControllers;
+@interface DBRegisterVC : UIViewController
+
 @end
